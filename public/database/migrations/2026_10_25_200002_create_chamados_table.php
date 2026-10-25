@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('chamados', function (Blueprint $table) {
             $table->id();
+            $table->string('titulo');
+            $table->string('status');
+            $table->string('prioridade');
             $table->timestamps();
         });
     }
