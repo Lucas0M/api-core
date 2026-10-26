@@ -10,7 +10,7 @@ class Chamado extends Model
 
     protected $fillable = [
         'titulo',
-        'statuts',
+        'status',
         'prioridade'
     ];
 }
